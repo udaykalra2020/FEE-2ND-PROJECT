@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Raleway');
+
+body{
+	font-family: 'Raleway',serif;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}
+.container-fluid{
+	width: fit-content;
+}
+#tagline{
+	color: black;
+	padding-top: 4%;
+	font-size: 2.3em;
+}
+#tagline-2{
+	color: black;
+	padding-top: 2%;
+	padding-bottom: 5%;
+	font-size: 2em;
+}
+#city{
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+input[type='text'],#submitCity{
+	height: 1.8em;
+	font-size: 1.6em;
+	margin-bottom: 8%;
+}
+table{
+	font-size: 1.6em;
+}
+#weather-data, .container-mid{
+	min-width:200px;
+	max-width: 40vw;
+	background-color:  #fff;
+	text-align: center;
+	border-radius: 5px;
+}
+#weather-data h3{
+	padding-top: 3%;
+}
+#weather-data p:last-child{
+	padding-bottom: 3%;
+} 
